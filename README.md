@@ -5,6 +5,14 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B_(Stdlib)-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-marte__telemetria.db-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
+## 📸 Vista Previa del Sistema (Screenshots)
+
+| 🌍 Globo 3D de Marte (ARES-PATH) | 🧭 Navegación Táctica A* & Telemetría SQLite |
+| :---: | :---: |
+| ![Globo 3D de Marte](./meis_globe_3d.jpg) | ![Navegación Táctica A*](./meis_astar_tactical.jpg) |
+| **🚨 Alerta de Reserva & Soporte Vital PLSS** | **🗺️ Relieve Topográfico MOLA (NASA)** |
+| ![Alerta PLSS](./meis_emergency_plss.jpg) | ![Topografía MOLA](./meis_mola_topography.jpg) |
+
 > **Galactic Problem Solver — NASA Space Apps Challenge 2026 (UNAQ Querétaro, Mexico)**
 >
 > **Live Web Application:** **[https://meis.onrender.com/](https://meis.onrender.com/)**
