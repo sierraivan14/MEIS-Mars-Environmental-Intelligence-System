@@ -1,0 +1,7 @@
+# MEIS — Mars Environmental Intelligence System (ARES-PATH / HORIZON.exe)
+#
+# Zero third-party Python package dependencies are required.
+# The backend (servidor_api.py, motor_astar.py) runs entirely on the
+# Python 3 Standard Library (http.server, sqlite3, heapq, math, json, os, mimetypes).
+#
+# Tested runtime: Python 3.13 (compatible with Python 3.10+)

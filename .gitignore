@@ -1,0 +1,62 @@
+# ==========================================
+# MEIS / ARES-PATH (.gitignore)
+# Python + Web + OS + Secrets
+# ==========================================
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging / builds / logs
+build/
+dist/
+*.egg-info/
+*.log
+
+# Transient SQLite lock/journal files (keep marte_telemetria.db tracked)
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite-journal
+
+# Environment variables, API keys & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Web / Node tooling (if introduced later)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
